@@ -2,7 +2,7 @@
 
 # OOP Scholl Library
 
-In this project, I feature as a librarian of St Nemwel's University, I need a tool to help me record what books are in the universitie's library and who borrows them. The app that I will create will allow me to:
+In this project I need a tool to help me record what books are in the universitie's library and who borrows them. The app that I will create will allow me to:
 
     Add new students or teachers.
 
@@ -62,7 +62,7 @@ Have fun acting as the librarian!
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Nemwel-Boniface/Nemwel_School_Library/issues).
+Feel free to check the [issues page]().
 
 ## Show your support
 
