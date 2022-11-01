@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# OOP Scholl Library
+# OOP School Library
 
 In this project, I feature as a librarian of St Nemwel's University, I need a tool to help me record what books are in the universitie's library and who borrows them. The app that I will create will allow me to:
 
