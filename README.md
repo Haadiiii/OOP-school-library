@@ -6,8 +6,6 @@ In this project I need a tool to help me record what books are in the universiti
 
     Add new students or teachers.
 
-
-
 ## Built With
 
 - Ruby
