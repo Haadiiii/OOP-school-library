@@ -2,55 +2,67 @@
 
 # OOP Scholl Library
 
-> Description the project.
+In this project, I feature as a librarian of St Nemwel's University, I need a tool to help me record what books are in the universitie's library and who borrows them. The app that I will create will allow me to:
+
+    Add new students or teachers.
+
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- Ruby
+- Terminal
+- IRB
+- Robocop (linters)
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link]() (Project will have none)
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
+## Install
 
-### Setup
+In your terminal, navigate to your current directory and run this code
 
-### Install
+`git@github.com:Haadiiii/OOP-school-library.git`
 
-### Usage
+Locate the directory in your file explorer
 
-### Run tests
+`cd OOP-school-library.git`
 
-### Deployment
+Install Robocop
 
+`bundle install`
 
+## Run Linters:
+
+### To run rubocop we use:
+`rubocop`
+
+### To autocorrect offenses with rubocop we use:
+`rubocop --auto-correct-all` or
+`rubocop -A`
+
+Have fun acting as the librarian!
 
 ## Authors
 
-👤 **Author1**
+👤 **Haamid Ali**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@Haadiiii](https://github.com/Haadiiii)
+- Twitter: [@HaaDiii_99](https://twitter.com/HaaDiii_99)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/hamid-ali-01a872213/)
+
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Nemwel-Boniface/Nemwel_School_Library/issues).
 
 ## Show your support
 
@@ -64,6 +76,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+This project is [MIT](./MIT.md) licensed.
