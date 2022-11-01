@@ -62,7 +62,7 @@ Have fun acting as the librarian!
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Nemwel-Boniface/Nemwel_School_Library/issues).
+Feel free to check the [issues page]().
 
 ## Show your support
 
