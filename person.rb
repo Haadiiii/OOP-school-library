@@ -4,7 +4,7 @@ require './capitalizedecorator'
 require './trimmerdecorator'
 
 class Person < Nameable
-  attr_reader :id, :rental
+  attr_reader :id, :rentals
   attr_accessor :name, :age
 
   def initialize(age, name = 'unknown', parent_permission: true)
@@ -13,12 +13,12 @@ class Person < Nameable
     @name = name
     @age = age
     @parent_permission = parent_permission
-    @rental = []
+    @rentals = []
   end
 
-  def add_rental(rental)
-    @rental << rental
-    rental.person = self
+  def add_rental(rentals)
+    @rentals << rentals
+    rentals.person = self
   end
 
   def can_use_services?
