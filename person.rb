@@ -35,12 +35,3 @@ class Person < Nameable
     @age >= 18
   end
 end
-
-person = Person.new(22, 'maximilianus')
-puts person.correct_name
-person1 = CapitalizeDecorator.new(person)
-
-puts person1.correct_name
-
-person2 = TrimmerDecorator.new(person1)
-puts person2.correct_name
