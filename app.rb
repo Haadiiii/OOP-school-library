@@ -99,29 +99,25 @@ class App
   end
 
   def create_a_rental
-    if @books.empty? && @people.empty?
-      puts 'nothing to see here'
-    else
-      puts 'Select the id of the book you want: '
-      @books.each_with_index do |book, index|
-        puts "#{index + 1}) Title: \"#{book.title}\" Author: #{book.author}"
-      end
-      number = gets.chomp.to_i
-      index = number - 1
-
-      puts 'Type your ID: '
-      @people.each { |person| puts "[#{person.class}] Name: #{person.name} | Age: #{person.age} | ID: #{person.id}" }
-      identity = gets.chomp.to_i
-
-      individual = @people.select { |person| person.id == identity }.first
-
-      print 'Enter date of renting the book:(yyyy-mm-dd) '
-      date = gets.chomp.to_s
-      rent = Rental.new(individual, date, @books[index])
-      @rentals << rent
-
-      puts 'Book rented successfully'
+    puts 'Select the id of the book you want: '
+    @books.each_with_index do |book, index|
+      puts "#{index + 1}) Title: \"#{book.title}\" Author: #{book.author}"
     end
+    number = gets.chomp.to_i
+    index = number - 1
+
+    puts 'Type your ID: '
+    @people.each { |person| puts "[#{person.class}] Name: #{person.name} | Age: #{person.age} | ID: #{person.id}" }
+    identity = gets.chomp.to_i
+
+    individual = @people.select { |person| person.id == identity }.first
+
+    print 'Enter date of renting the book:(yyyy-mm-dd) '
+    date = gets.chomp.to_s
+    rent = Rental.new(individual, date, @books[index])
+    @rentals << rent
+
+    puts 'Book rented successfully'
   end
 
   def list_all_rentals_id

@@ -6,6 +6,6 @@ class Rental
     @person = person
     person.rentals << self unless person.rentals.include?(self)
     @book = book
-    book.rental << self unless book.rental.include?(self)
+    book.rentals << self unless book.rentals.include?(self)
   end
 end
