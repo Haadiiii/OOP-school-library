@@ -5,6 +5,8 @@
 In this project I need a tool to help me record what books are in the universitie's library and who borrows them. The app that I will create will allow me to:
 
     Add new students or teachers.
+    Add new books.
+    Save records of who borrowed a given book and when.
 
 ## Built With
 
@@ -30,7 +32,7 @@ In your terminal, navigate to your current directory and run this code
 
 Locate the directory in your file explorer
 
-`cd OOP-school-library.git`
+`cd OOP-school-library`
 
 Install Robocop
 
