@@ -83,7 +83,7 @@ class App
       print 'Teacher specialization: '
       teacher_specs = gets.chomp
       teacher_permission = true
-      @people.push(Teacher.new(teacher_age, teacher_name, teacher_specs, 'junior', teacher_permission))
+      @people.push(Teacher.new(teacher_age, teacher_name, teacher_specs, teacher_permission))
       puts 'Teacher is created successfully'
     end
   end
