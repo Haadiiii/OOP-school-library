@@ -53,13 +53,14 @@ class App
     case stdparpermission
     when 'true'
       @people.push(Student.new(stdage, std_class, stdname, true))
+      puts 'Student is created successfully'
     when 'false'
       @people.push(Student.new(stdage, std_class, stdname, false))
+
+      puts 'Student is created successfully'
     else
       puts 'That was an invalid entry'
     end
-
-    puts 'Student is created successfully'
   end
 
   def create_a_person
