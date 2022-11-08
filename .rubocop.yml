@@ -1,16 +1,16 @@
 AllCops:
   NewCops: enable
   Exclude:
-    - "Guardfile"
-    - "Rakefile"
-    - "node_modules/**/*"
+    - 'Guardfile'
+    - 'Rakefile'
+    - 'node_modules/**/*'
 
   DisplayCopNames: true
 
 Layout/LineLength:
   Max: 120
 Metrics/MethodLength:
-  Max: 20
+  Max: 30
 Metrics/AbcSize:
   Max: 50
 Metrics/ClassLength:
@@ -20,7 +20,6 @@ Metrics/BlockLength:
   Max: 30
 Metrics/CyclomaticComplexity:
   Max: 10
-
 
 Style/Documentation:
   Enabled: false
@@ -43,6 +42,8 @@ Layout/MultilineMethodCallIndentation:
   Enabled: true
   EnforcedStyle: indented
 Lint/RaiseException:
+  Enabled: false
+Lint/Debugger:
   Enabled: false
 Lint/StructNewOverride:
   Enabled: false

@@ -26,11 +26,11 @@ def match_input(choice)
   when 3
     @method.create_a_person
   when 4
-    @method.create_a_book
+    @method.display_book_list
   when 5
     @method.create_a_rental
   when 6
-    @method.list_all_rentals_id
+    @method.list_all_rentals_by_person_id
   when 7
     @method.quit_app
   else

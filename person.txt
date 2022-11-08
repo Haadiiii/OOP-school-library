@@ -1,0 +1,6 @@
+{"name":"dasd","age":23,"specialization":"dasd"}
+[STUDENT]{"name":"asd","age":0,"class":"sda","parent_permission":"true"}
+{"name":null,"age":null,"specialization":null}
+{"Teachername":null,"age":null,"specialization":null}
+[STUDENT]{"Studentname":"adsd","age":0,"class":"dasd","parent_permission":"true"}
+{"Teachername":null,"age":null,"specialization":null}
