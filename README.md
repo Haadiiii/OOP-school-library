@@ -1,3 +1,5 @@
+<!-- @format -->
+
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # OOP School Library
@@ -18,7 +20,6 @@ In this project I need a tool to help me record what books are in the universiti
 ## Live Demo (if available)
 
 [Live Demo Link]() (Project will have none)
-
 
 ## Getting Started
 
@@ -41,9 +42,11 @@ Install Robocop
 ## Run Linters:
 
 ### To run rubocop we use:
+
 `rubocop`
 
 ### To autocorrect offenses with rubocop we use:
+
 `rubocop --auto-correct-all` or
 `rubocop -A`
 
@@ -57,6 +60,11 @@ Have fun acting as the librarian!
 - Twitter: [@HaaDiii_99](https://twitter.com/HaaDiii_99)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/hamid-ali-01a872213/)
 
+👤 **Choice Osobor**
+
+- GitHub: [@techEmprez](https://github.com/techEmprez)
+- Twitter: [@techEmprez](https://twitter.com/techEmprez)
+- LinkedIn: [Choice Osobor](https://www.linkedin.com/in/choice-osobor/)
 
 ## 🤝 Contributing
 
