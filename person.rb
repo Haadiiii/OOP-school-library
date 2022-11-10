@@ -7,7 +7,7 @@ class Person < Nameable
   attr_reader :id, :rentals
   attr_accessor :name, :age
 
-  def initialize(age, name = 'unknown', parent_permission = 'true')
+  def initialize(age, name = 'unknown', parent_permission: false)
     super()
     @name = name
     @age = age
@@ -17,11 +17,10 @@ class Person < Nameable
 
   def add_rental(rentals)
     @rentals << rentals
-    rentals.person = self
   end
 
   def can_use_services?
-    @parent_permission || is_of_age?
+    @parent_permission
   end
 
   def correct_name
